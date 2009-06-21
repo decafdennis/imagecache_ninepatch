@@ -1,0 +1,9 @@
+; Developed by Dennis Stevense, naquah.net
+name = ImageCache 9-patch Actions
+description = Allows 9-patch image overlays and backgrounds for ImageCache.
+dependencies[] = imagecache
+dependencies[] = imageapi
+package = ImageCache
+
+core = 6.x
+version = 6.x-1.x-dev

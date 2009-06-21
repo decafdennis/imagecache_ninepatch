@@ -1,0 +1,12 @@
+<?php
+// Developed by Dennis Stevense, naquah.net
+
+function imagecache_ninepatch_imagecache_actions() {
+  return array(
+    'imagecache_ninepatch_image' => array(
+      'name' => t('9-patch image'),
+      'description' => t('Place a 9-patch image under or over the processed image.'),
+      'file' => 'imagecache_ninepatch.actions.inc',
+    ),
+  );
+}
